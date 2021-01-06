@@ -1,0 +1,35 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey", "Hello"],
+         "responses": ["Hello, thanks for asking", "Hi there, how can I help?"]
+        },
+        {"tag": "bye",
+         "patterns": ["Bye", "See you later", "Good bye", "Nice chatting to you, bye"],
+         "responses": ["See you!", "Bye, Have a nice day", "Bye! Come back again soon."]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["You Welcome!", "My pleasure"]
+        },
+        {"tag": "no text",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+        },
+        {"tag": "status",
+         "patterns": ["What is the status of workorder?","Provide status of workorder?","What is current state of workorder?", "What is current status of workorder?"],
+         "responses": ["WO_STATUS"]
+        },
+        {"tag": "cable_miles",
+         "patterns": ["How many miles of cables are there in workorder?","How many miles workorder have?","What is number of miles in this workorder?","Workorder miles please?"],
+         "responses": ["WO_CABLEMILES"]
+        },
+        {"tag": "assignment",
+         "patterns": ["To whom is this workorder assigned?","Who is working on this workorder?","Who is aligned to this workorder?","This workorder is assigned to?"],
+         "responses": ["WO_ASSIGNMENT"]
+        },
+        {"tag": "milestone",
+         "patterns": ["What is the milestone of each Fiber cable in this workorder?","Milestone of this workorder?","What is target for this workorder?"],
+         "responses": ["WO_MILESTONE"]
+        }
+  ]
+  }
